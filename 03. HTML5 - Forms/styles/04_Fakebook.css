@@ -1,0 +1,138 @@
+body {
+	background-color: #3B5997;
+}
+
+input, select {
+	border-radius: 4px; 
+	width: 140px;
+	height: 22px;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+fieldset {
+	margin-top: 15px;
+	float: left;
+	border-radius: 8px;
+	padding-bottom: 40px;
+	position: relative;
+	top: 50px;
+}
+
+textarea {
+	border-radius: 4px; 
+	width: 470px;
+	height: 75px;
+	position: relative;
+	top: 10px;
+}
+
+legend {
+	color: white;
+	text-align: center;
+	font-size: 14pt;
+}
+.title {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	color: white;
+	font-size: 90pt;
+	position: relative;
+	left: 300px;	
+}
+
+.r {
+	font-size: 10pt;
+}
+.reg {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	color: white;
+	font-size: 25pt;
+	position: relative;
+	left: 470px;
+	top: 20px;
+}
+.moto {
+	font-family: "lucida grande",tahoma,verdana,arial,sans-serif;
+	color: white;
+	font-size: 15pt;
+	position: relative;
+	left: 430px;
+	top: 30px;
+}
+.radio  {
+	width: 15px;
+	margin-top: 10px;
+	color: white;
+	font-family: "sans-serif";
+	margin-right: 2px;
+}
+
+.column-left {
+	float: left;	
+}
+
+.block {
+	display: block;
+}
+
+.column-right {
+	float: left;
+}
+
+.span-text {
+	color: white;
+	font-size: 12pt;
+	position: relative;
+	top: 5px;
+}
+
+.date {
+	width: 230px;
+	height: 26px;
+}
+
+.smaller-forms {
+	border-radius: 4px; 
+	width: 60px;
+	height: 22px;
+	margin-top: 10px;
+	margin-right: 15px;
+}
+
+.field-indent {
+	position: relative;
+	left: 130px;
+}
+
+.field-right {
+	position: relative;
+	padding-bottom: 10px;
+	margin-left: 180px;
+}
+
+.panties {
+	background: white;
+	height: 28px;
+}
+
+.reset {
+	position: relative;
+	top: 370px;
+	left: -905px;
+	width: 340px;
+	height: 60px;
+	border-radius: 10px;
+	font-size: 18pt;
+	color: #3B5997;
+}
+
+.submit {
+	position: relative;
+	top: 302px;
+	left: -505px;
+	width: 500px;
+	height: 60px;
+	border-radius: 10px;
+	font-size: 18pt;
+	color: #3B5997;
+}

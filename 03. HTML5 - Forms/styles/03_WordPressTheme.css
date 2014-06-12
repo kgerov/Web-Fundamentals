@@ -1,0 +1,9 @@
+.logoBig {
+	width: 20%;
+}
+
+.logoSmall {
+	width: 2%;
+	position: relative;
+	top: 10px;
+}

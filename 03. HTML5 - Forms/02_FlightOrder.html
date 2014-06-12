@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<link rel="stylesheet" type="text/css" href="styles/02_FlightOrder.css">
+		<title>Flight Order</title>
+	</head>
+	<body>
+		<form>
+			<div class="backdrop">
+				<span class="title"><strong>FLIGHT ORDER</strong></span><br/>
+				<span class="leftel"><em>From</em></span>
+				<span class="rightel"><em>To</em></span><br/>
+				<select class="leftel">
+					<option value="Value 1">enter a city</option> /*FIX*/
+					<option value="Value 2">Sofia</option>
+					<option value="Value 3">Software Land</option>
+					<option value="Value 4">Varna</option>
+				</select>
+				<select class="rightel">
+					<option value="Value 1">enter a city</option> /*FIX*/
+					<option value="Value 2">Sofia</option>
+					<option value="Value 3">Software Land</option>
+					<option value="Value 4">Varna</option>
+				</select><br/>
+				<input type="checkbox" name="direct" id="direct" class="check" />
+				<label for="direct" class="checkbox downpad">Prefer directs</label> <br/>
+				<span class="timeinterval2"><em>Departure Date</em></span>
+				<span class="timeinterval"><em>Time Interval</em></span><br/>
+				<input class="timeinterval2" type="date" name="departDate"/>
+				<input class="timeinterval" type="time" name="departTimeStart"/>
+				<input class="rightTime" type="time" name="departTimeEnd"/><br/>
+				<span class="timeinterval3"><em>Return Date</em></span>
+				<span class="timeinterval4"><em>Time Interval</em></span><br/>
+				<input class="timeinterval3" type="date" name="arriveDate"/>
+				<input class="timeinterval4" type="time" name="arriveTimeStart"/>
+				<input class="rightTime2" type="time" name="arriveTimeEnd"/><br/>
+				<span class="ages" ><em>12+</em></span>
+				<span class="ages"><em>2-12</em></span>
+				<span class="ages"><em>0-2</em></span>
+				<span class="economy" ><em>Choose class</em></span><br/>
+				<input class="quantity" type="number" min="0" max="30"/>
+				<input class="quantity" type="number" min="0" max="30"/>
+				<input class="quantity" type="number" min="0" max="30"/>
+				<select class="class">
+					<option value="Class 1">Economy</option>
+					<option value="Class 2">Business</option>
+					<option value="Class 3">First Class</option>
+				</select><br/>
+				<input class="submitbut" type="submit" value="Search"/>
+			</div>
+		</form>
+	</body>
+</html>
