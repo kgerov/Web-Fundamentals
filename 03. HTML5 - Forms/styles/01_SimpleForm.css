@@ -1,0 +1,120 @@
+.mainBack {
+	background-color: #EEEEEE;
+	width: 610px;
+	height: 360px;
+}
+.title {
+	font-size: 20pt;
+	color: #234465;
+	padding: 8px;
+	font-weight: bold;
+}
+
+.subtitle {
+	position: relative;
+	font-family: "Arial";
+	font-size: 11pt;
+	left: 7px;
+	bottom: -10px;
+}
+
+.register {
+	position: relative;
+	bottom: -26px;
+	left: 20px;
+	float: left;
+}
+
+.blue {
+	color: #234465;
+	font-weight: bold;
+	font-family: "Arial";
+}
+
+.grey {
+	color: #5A5A5A;
+	font-family: "Arial";
+	font-weight: bold;
+}
+
+.white {
+	position: relative;
+	color: white;
+	font-family: "Arial";
+	font-weight: bold;
+	bottom: -7px;
+	left: 16px;
+}
+
+.forms {
+	position: relative;
+	border-color: solid #B6B2B2;
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+	box-shadow: none;
+}
+
+.regbutton {
+	position: relative;
+	border: solid #234465 2px;
+	background: none;
+	font-family: "Arial";
+	color: #234465; 
+	font-size: 16pt;
+	margin-top: 18px;
+	margin-left: 104px;
+	width: 150px;
+	height: 35px;
+}
+
+.login {
+	float: left;
+	position: relative;
+	left: 35px;
+	bottom: -20px;
+	background-color: #234465;
+	width: 300px;
+	height: 265px;
+}
+
+.leftForms {
+	position: relative;
+	border-color: solid #B6B2B2;
+	width: 250px;
+	height: 30px;
+	margin-top: 10px;
+	box-shadow: none;
+	left: 16px;
+	bottom: -10px;
+}
+
+.logbutton {
+	position: relative;
+	border: solid #FFA900 2px;
+	background: none;
+	font-family: "Arial";
+	color: white; 
+	font-size: 16pt;
+	margin-top: 2px;
+	margin-left: 150px;
+	width: 120px;
+	height: 35px;
+}
+
+.remeberme {
+	position: relative;
+	color: white;
+	font-style: italic;
+	font-size: 10pt;
+	left: 12px;
+	bottom: -15px;
+}
+
+.forgetpass {
+	position: relative;
+	color: white;
+	font-size: 10pt;
+	margin-left: 180px;
+	bottom: -6px;
+}

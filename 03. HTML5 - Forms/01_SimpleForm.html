@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Simple Form</title>
+		<link type="text/css" rel="stylesheet" href="styles/01_SimpleForm.css" /> 
+	</head>
+	<body>
+		<form>
+			<div class="mainBack">
+				<span class="title">Enter the system</span><br/>
+				<span class="subtitle">It is necessary to login in Your account in order to sign in for the corse</span><br/>
+				<div class="register">
+					<span class="grey">ARE YOU NEW? </span><span class="blue">REGISTER</span><br/>
+					<input type="text" name="username" placeholder=" User name" pattern="[a-zA-Z]{1}[a-zA-Z0-9._-]+" class="forms"><br/>
+					<input type="email" placeholder=" Email" class="forms"><br/>
+					<input type="password" placeholder=" Password" name="pass" class="forms"> <br/>
+					<input type="password" placeholder=" Confirm Password" name="passConfirm" class="forms"> <br/>
+					<input type="submit" name="submit" value="Register" class="regbutton">
+				</div>
+				<div class="login">
+					<span class="white">ARE YOU A STUDENT? LOGIN</span><br/>
+					<input type="text" name="username" placeholder=" User name" class="leftForms"><br/>
+					<input type="password" name="pass" placeholder=" Password" class="leftForms"><br>
+					<input type="checkbox" value="no" id="ch" class="remeberme">
+					<label for="ch" class="remeberme">Remember me?</label>
+					<input type="submit" name="login" value="Log In" class="logbutton"><br/>
+					<a href="" class="forgetpass">Forgot Password</a>
+				</div>
+			</div>
+		</form>
+	</body>
+</html>

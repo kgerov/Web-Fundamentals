@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>SoftUni Slide</title>
+		<style type="text/css">
+			body { 
+	   			background-image:url("src/power-point.jpg");
+	   			background-size:1000px 700px;
+	   			background-repeat:no-repeat; 
+			}
+			h1 {
+				position: absolute;
+				color: #F3CD60;
+				font-family: "calibri";
+				font-weight: bold;
+				font-size: 36pt;
+				top: -20px;			
+			}
+			h2 { 
+			   position: absolute; 
+			   color: #F3CD60;
+			   font-family: "calibri";
+			}
+		#softuni-logo {
+			position: absolute;
+			top: 15px;
+			left: 780px;
+			width: 220px;
+			height: 80px;
+		}
+		#whitetext {
+			color: #ffffff;
+			font-size: 28pt;
+			font-family: "calibri";
+		}
+		#yellowtext {
+			color: #F3CD60;
+			font-size: 28pt;
+			font-family: "calibri";
+			font-weight: bold;
+		}
+		#container {
+			border: 1px solid #747065;
+			color: #FBEEC9;
+			font-family: "calibri";
+			font-weight: 700;
+			font-size: 21pt;
+			padding: 10px;
+			max-width: 780px;
+			margin-left: 70px;
+			background: rgba(82,82,77,0.3);
+		}
+
+		#page-number {
+			color: #ffffff;
+			font-size: 9pt;
+			margin-left: 950px;
+		}
+		li {
+			list-style-type: none;
+		}
+		li:before{content: "■"; color: #F0A22E; font-size: 14pt; margin-right: 10px; vertical-align: 5px;}
+		</style>
+	</head>
+	<body>
+		<h1>Headings and Paragraphs</h1>
+		<img src="src/softuni.png" id = "softuni-logo"/> <br/><br/><br/><br/>
+		<ul>
+			<li id = "whitetext">Heading Tags: <span id = "yellowtext">&lt;h1&gt; - &lt;h6&gt;</span></li>
+		</ul>
+		<div id="container">
+			&lt;h1&gt;Heading 1&lt;/h1&gt;<br/>&lt;h2&gt;Sub heading 2&lt;/h2&gt;<br/>&lt;h3&gt;Sub heading 3&lt;/h3&gt;
+		</div>
+		<ul>
+			<li id = "whitetext">Paragraph Tags: <span id = "yellowtext">&lt;p&gt;</span></li>
+		</ul>
+		<div id="container">
+			&lt;p&gt;This is my first paragraph&lt;/p&gt;<br/>&lt;p&gt;This is my second paragraph&lt;/p&gt;
+		</div>
+		</div>
+		<ul>
+			<li id = "whitetext">Sections: <span id = "yellowtext">&lt;div&gt;</span> and <span id = "yellowtext">&lt;span&gt;</span></li>
+		</ul>
+		<div id="container">
+			&lt;div style="background: skyblue;"&gt;<br/><span>&nbsp&nbsp&nbsp&nbsp&nbspThis is a div</span><br/>&lt;/div&gt;
+		</div>
+		<span id = "page-number">22</span>
+	</body>
+</html>
