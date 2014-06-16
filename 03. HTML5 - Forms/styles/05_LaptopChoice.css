@@ -1,0 +1,73 @@
+body {font-family: "Arial";}
+
+img {width: 150px; display: block; margin: auto; margin-top: -25px; margin-bottom: 10px;}
+
+h1 {color: #213855;}
+
+h3 {position: relative; top: -10px;}
+
+a {text-decoration: none; color: #213855;}
+
+
+input {
+	width: 95%;
+}
+
+body div {
+	border: 1px solid #c9ebff;
+	border-radius: 6px;
+	padding-left: 10px;
+	margin-bottom: 10px;
+	float: left;
+	margin-right: 10px;
+	width: 200px;
+}
+
+.pricetag {
+	color: white;
+	background: #213855;
+	font-size: 12pt;
+	border-top-left-radius: 12px 12px;
+	border-top-right-radius: 0px 0px;
+	border-bottom-left-radius: 0px 0px;
+	border-bottom-right-radius: 4px 4px;
+	width: 45%;
+	margin-right: 0px;
+	margin-bottom: -1px;
+	float: right;
+}
+
+.sliders {
+	background-color: #f7fcff;
+	border: 1px solid #c9ebff;
+	width: 20%;
+	height: 530px;
+	float: left;
+	position: relative;
+	top: -290px;
+	border-radius: 0px;
+}
+
+.float {clear: left;}
+
+.topmar {position: relative;top: -20px;}
+
+.macpro{width: 150px; display: block; margin: auto; margin-top: -40px; margin-bottom: -10px;}
+
+.macair{width: 150px; display: block; margin: auto; margin-top: -35px;}
+
+.sliderHeading {
+	font-size: 13pt;
+	text-align: center;
+	margin-bottom: -10px;
+}
+
+.rightalign {
+	float: right;
+	font-weight: normal;
+	margin-right: 10px;
+	font-size: 12pt;
+	margin-top: 0px;
+	margin-bottom: 0px;
+}
+
