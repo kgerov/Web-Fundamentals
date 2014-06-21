@@ -1,0 +1,17 @@
+img {
+	width: 20%;
+}
+
+div {
+	float: left;
+	width: 200px;
+	padding: 10px;
+}
+
+.background {
+	background: #FFC0CB;
+	padding: 15px;
+	border-radius: 4px;
+	width: 90%;
+}
+
