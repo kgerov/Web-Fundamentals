@@ -1,17 +1,39 @@
-img {
-	width: 20%;
-}
-
-div {
-	float: left;
-	width: 200px;
-	padding: 10px;
-}
-
-.background {
+main {
 	background: #FFC0CB;
-	padding: 15px;
-	border-radius: 4px;
-	width: 90%;
+	width: 870px;
+    height: 470px;
+    padding: 1px 35px 15px 22px;
+}
+
+h1 {
+	text-align: center;
+}
+
+img {
+	width: 230px;
+	margin-left: -40px;
+}
+
+figcaption {
+	font-size: 15px;
+	margin-left: -40px;
+	margin-top: -15px;
+	margin-bottom: -10px;
+}
+
+meter {
+	margin-top: -10px;
+	width: 170px;
+	height: 20px;
+}
+
+section {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+}
+
+.left {
+	margin-left: 60px;
 }
 
