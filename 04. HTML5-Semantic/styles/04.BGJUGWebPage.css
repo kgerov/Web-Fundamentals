@@ -1,0 +1,150 @@
+#wrapper {
+	border: 1px solid #bebebe;
+	max-width: 1500px;
+	margin: 2px auto;
+}
+
+#wrapper nav {
+	max-width: 1350px;
+	margin: 2px auto;
+	border-bottom: 1px solid #bebebe;
+}
+
+#wrapper header h1 {
+	font-family: "Droid Sans", "Lucida Grande", Tahoma, sans-serif;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	padding: 1px 0px 40px 50px;
+} 
+
+#wrapper #menu ul li {
+	display: inline-block;
+	padding: 0px 40px 2px 0px;
+	color: #a1a1a1;
+}
+
+#wrapper #menu ul li a {
+	text-decoration: none;
+	color: #a1a1a1;
+	font-size: 16pt;
+}
+
+#wrapper #menu {
+	float: left;
+}
+
+#wrapper #search{
+	float: right;
+}
+
+#search input {
+	width: 200px;
+	height: 30px;
+	background-color: #F7F7F7;
+	border: 1px solid #bebebe;
+}
+
+#search #searchlogo {
+	width: 20px;
+	height: 20px;
+	border: none;
+	position: relative;
+	right: 30px;
+	top: 5px; 
+}
+
+#clear {
+	clear: both;
+}
+
+#wrapper #recentart {
+	float: left;
+	width: 220px;
+	margin-top: 35px;
+}
+
+#wrapper #recentart ul li a {
+	text-decoration: none;
+	color: #5B92B5;
+	font-size: 14pt;
+}
+
+#wrapper #recentart ul li {
+	list-style-type: none;
+	margin-top: 8px;
+}
+
+#wrapper #sidebar {
+	float: right;
+	margin-top: 30px;
+	margin-right: 5%;
+}
+
+#wrapper #sidebar #language{
+	border-bottom: 1px solid #bebebe;
+	font-size: 12pt;
+	color: #a1a1a1;
+	width: 150px;
+	margin-bottom: 8px;
+}
+
+#wrapper #sidebar select{
+	width: 120px;
+	margin-bottom: 20px;
+}
+
+#wrapper #sidebar #blogroll {
+	border-bottom: 1px solid #bebebe;
+	font-size: 12pt;
+	color: #a1a1a1;
+	width: 150px;
+	margin-bottom: 8px;
+}
+
+#wrapper main {
+	width: 700px;
+	margin: 2px auto;
+}
+
+#wrapper main h2 {
+	font-family: "Droid Sans", "Lucida Grande", Tahoma, sans-serif;
+	letter-spacing: 0.00em;
+	text-transform: none;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	font-size: 20pt;
+}
+
+#wrapper .credit {
+	font-size: 10pt;
+	color: #a1a1a1;
+	margin-top: -22px;
+	margin-bottom: 20px;
+}
+
+#wrapper .continue {
+	margin-top: 15px;
+	color: #5B92B5;
+	font-size: 13pt;
+} 
+
+#wrapper .paragraph {
+	font-family: "Droid Sans", "Lucida Grande", Tahoma, sans-serif;
+	letter-spacing: 0.00em;
+	text-transform: none;
+	font-weight: normal;
+	font-variant: normal;
+	font-style: normal;
+	font-size: 13pt;
+}
+
+#wrapper footer {
+	background-color: black;
+	color: white;
+}
+
+#wrapper footer div {
+	display: inline-block;
+}
