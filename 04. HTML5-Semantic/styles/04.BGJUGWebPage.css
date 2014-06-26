@@ -107,6 +107,11 @@
 	margin: 2px auto;
 }
 
+#wrapper #content {
+	border-bottom: 1px solid #bebebe;
+	padding-bottom: 25px;
+}
+
 #wrapper main h2 {
 	font-family: "Droid Sans", "Lucida Grande", Tahoma, sans-serif;
 	letter-spacing: 0.00em;
@@ -138,6 +143,28 @@
 	font-variant: normal;
 	font-style: normal;
 	font-size: 13pt;
+	line-height: 26px;
+}
+
+#wrapper #preenter {
+	margin-top: 35px;
+	margin-bottom: 25px;
+	color: #5B92B5;
+	font-size: 13pt;
+}
+
+#wrapper #twitter {
+	background-color: #F7F7F7;
+	padding: 15px;
+	font-style: italic;
+	color: #967F7C;
+	font-size: 13pt;
+	margin-top: 60px;
+}
+
+#wrapper #twitter img {
+	width: 30px;
+	vertical-align: bottom;
 }
 
 #wrapper footer {
@@ -147,4 +174,33 @@
 
 #wrapper footer div {
 	display: inline-block;
+}
+
+#wrapper footer div {
+	display: inline-block;
+	vertical-align: top;
+}
+
+#wrapper footer #sig {
+	font-size: 18pt;
+	font-style: bold;
+	width: 170px;
+	padding: 20px;
+}	
+
+#wrapper footer .pages {
+	width: 150px;
+	margin-right: 40px;
+}
+
+#wrapper footer a {
+	display: block;
+	text-decoration: none;
+	color: white;
+}
+
+#wrapper footer #copy {
+	width: 170px;
+	color: #a1a1a1;
+	margin-top: 15px;
 }
