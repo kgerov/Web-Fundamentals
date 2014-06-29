@@ -1,0 +1,107 @@
+body {
+	width: 1000px;
+	margin: 0 auto;
+	background-image: url(../src/dots.jpg);
+	background-repeat: repeat;
+	font-family: Calibri;
+}
+
+article {
+	background: rgba(255, 255, 255, 0.9);
+	border-radius: 1em;
+	width: 700px;
+	padding: 15px;
+	margin: 10px;
+	margin-left: 250px;
+}
+
+section article div::first-letter {
+	font-size: 3em;
+	font-style: italic;
+}
+
+section article div::first-line{
+	font-style: italic;
+}
+
+article a {
+	color: #808080;
+	font-style: italic;
+}
+
+nav {
+	float: left;
+	background: rgba(255, 255, 255, 0.9);
+	padding: 15px;
+	border-radius: 1em;
+	opacity: 0.9;
+	width: 200px;
+	margin-top: 10px;
+	padding-bottom: 4px;
+}
+
+body > header {
+	width: 1000px;
+	height: 80px;
+	background: linear-gradient(to right, #ff0000, #ff0000 33.3%, #008000 33.3%, #008000 67.7%, #0000ff 67.7%);
+	color: yellow;
+	font-size: 3em;
+	font-weight: bold;
+	text-align: center;
+}
+
+nav ul li{
+	list-style-type: none;
+	margin-left: -35px;
+	margin-bottom: 10px;
+}
+
+nav header {
+	font-size: 1.5em;
+	text-decoration: underline;
+	margin-bottom: -6px;
+}
+
+nav ul li a {
+	text-decoration: none;
+	color: black;
+	font-size: 1.05em;
+}
+
+nav ul li:before {
+	content: url(../src/check.png);
+	margin-right: 8px;
+}
+
+nav ul li a:visited {
+	color: grey;
+}
+
+nav ul li:hover {
+	padding: 4px;
+	border-radius: 0.5em;
+	display: list-item;
+	list-style-position: inside;
+}
+
+nav ul li:nth-child(1):hover {background-color: red;}
+nav ul li:nth-child(2):hover {background-color: orange;}
+nav ul li:nth-child(3):hover {background-color: yellow;}
+nav ul li:nth-child(4):hover {background-color: green;}
+nav ul li:nth-child(5):hover {background-color: blue;}
+nav ul li:nth-child(6):hover {background-color: purple;}
+
+section article header {
+	color: white; 
+	padding: 10px; 
+	font-size: 2em; 
+	margin-bottom: 5px; 
+	border-radius: 0.35em;
+}
+
+#webColors{background-color: red;}
+#webSafeColors{background-color: orange; color: black;}
+#RGB{background-color: yellow; color: black;}
+#RGBA{background-color: green;}
+#\23HSLHSV{background-color: blue;}
+#\23lorem{background-color: purple;}
