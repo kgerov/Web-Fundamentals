@@ -1,0 +1,93 @@
+body {font-family: Tahoma;}
+
+#main-box {
+	width: 650px;
+	padding: 20px;
+	border-left: 10px dashed red;
+	border-top: 10px dotted yellow;
+	border-right: 10px solid green;
+	border-bottom: 10px double blue;
+	padding-top: 15px;
+	padding-bottom: 30px;
+	box-shadow: 20px 20px 20px #5A5A5A;
+
+}
+
+#main-box h1 {
+	margin-top: 0;
+	font-size: 3.1rem;
+	text-align: center;
+	font-weight: 600;
+	text-shadow: 10px 10px 15px #59554F;
+}
+
+#inner-div {
+	width: 640px;
+	margin: 0 auto;
+	border: 2px solid red;
+	border-radius: 4em;
+	box-shadow: 0 0 0 2px yellow, 0 0 0 4px green, 0 0 0 6px blue;
+}
+
+#inner-div h2 {
+	text-align: center;
+	font-family: Arial;
+	font-size: 1.25rem;
+	margin-top: 10px;
+	text-shadow: 8px 10px 15px #59554F;
+}
+
+#inner-div input[type=text]{
+	width: 180px;
+	margin: 10px 0;
+	text-align: center;
+	font-family: Arial;
+	font-weight: bold;
+	background-color: #D8921A;
+	border: none; border: 2px #FFA600;
+	border-style: outset;
+	margin-left: 2px;
+	margin-top: 0;
+	margin-bottom: 14px;
+}
+
+#main-box form input:nth-child(1) {
+	margin-left: 130px;
+}
+
+.stamp {
+	background-color: rgba(0,0,0,0.4);
+	color: white;
+	border-radius: 50%;
+	text-align: center;
+	border: 2px dashed white;
+	padding: 10px;
+	font-weight: bold;
+	box-shadow: 0 0 0 4px rgba(0,0,0,0.4);
+}
+
+#cool-div {
+	width: 100px;
+	border-radius: 30px;
+	position: absolute;
+	left: 665px;
+	top: 50px;
+}
+
+#bix-box {
+	width: 10px; 
+	height: 10px;
+	position: absolute;
+	top: 125px;
+	left: 615px;
+}
+
+#small-box {
+	width: 0.2px;
+	height: 0.2px;
+	position: absolute;
+	top: 160px;
+	left: 525px;
+}
+
+#cool {opacity: 2}

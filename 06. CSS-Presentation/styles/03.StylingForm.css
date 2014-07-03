@@ -1,0 +1,71 @@
+#wrapper {
+	width: 400px;
+	height: 730px;
+	margin: 0 auto;
+	background:no-repeat url('../src/formBackground.jpg');
+	padding: 20px;
+	padding-top: 5px;
+}
+
+form section > h1 {
+	color: white;
+	margin: 8px 0;
+	font-size: 1.3rem;
+}
+
+form section div {
+	border: 1px solid white;
+	background-color: rgba(255, 255, 255, 0.3);
+	border-radius: 5px;
+	padding: 8px;
+	margin-bottom: 2px;
+}
+
+form section div input, textarea {
+	width: 200px;
+	padding: 5px;
+	border-radius: 2px;
+	border: none;
+	margin-left: auto;
+	margin-left: 120px;
+}
+
+label {position: absolute;}
+.def-label{position: static;}
+textarea {vertical-align: top; max-width: 200px; max-height: 70px; height: 70px;}
+
+input[type=submit] {
+	border: none;
+	border-radius: 15px;
+	width: 100px;
+	background-color: black;
+	color: white;
+	padding: 5px;
+	margin: 10px 150px;
+	font-size: 1.1rem;
+}
+
+input[type=radio] {
+	margin: 8px 0;
+	margin-left: 15px;
+	width: 20px;
+	display: inline-block;
+}
+
+#visa::after {content: url('../src/visa.png'); margin-left: 20px;}
+
+#amex::after {
+	content: url('../src/amex.png');
+	margin-left: 20px;
+	position: relative;
+	top: -5px;
+}
+
+#master::after {content: url('../src/mastercard.png'); margin-left: 20px;}
+
+label[for=visa], label[for=amex], label[for=master] {margin-left: 30px;}
+
+input:focus, textarea:focus {background-color: lightblue;}
+
+input[type=submit]:hover {background-color: #40AEE5;}
+
