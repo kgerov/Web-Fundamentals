@@ -1,0 +1,236 @@
+body, ul, header, footer, section, article, ul, li, a, span, nav, h1, h2, h3, aside, div {
+    box-sizing: border-box;
+    margin: 0;
+    moz-box-sizing: border-box;
+    padding: 0;
+    webkit-box-sizing: border-box;
+}
+
+html {
+    background-attachment: fixed;
+    background-image: url('../images/background-flowers.jpg');
+}
+
+body {
+	font-family: Tahoma;
+}
+
+body #wrapper {
+	display: flex;
+	width: 960px;
+	margin: 0 auto;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	font-size: 16px;
+}
+
+	body #wrapper > header {
+		display: flex;
+		flex-flow: row wrap;
+		flex-grow: 4;
+		justify-content: space-between;
+		background-color: rgba(250,184,186, 0.8);
+		padding: 20px;
+		width: 100%;
+		border: 2px solid black;
+		margin-bottom: 30px;
+	}
+
+		body #wrapper > header h1 {
+			width: 100%;
+		}
+			body #wrapper > header h1 a {
+				display: flex;
+				justify-content: space-between;
+				text-decoration: none;
+				color: black;
+				font-size: 1.3em;
+			}
+
+				body #wrapper > header h1 a img {
+					width: 300px;
+				}
+
+		body #wrapper > header nav {
+			width: 100%;
+			margin-top: 20px;
+		}
+
+			body #wrapper > header nav ul {
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: flex-end;
+				list-style-type: none;
+				width: 100%;
+			}
+
+				body #wrapper > header nav ul li a{
+					margin-right: 20px;
+					text-decoration: none;
+					color: white;
+					font-size: 1.4em;
+					background-color: #EB2A7B;
+					border: 1px solid black;
+					padding: 10px 30px;
+				}
+
+					body #wrapper > header nav ul li:last-child a{
+						margin-right: 0;
+					}
+
+	body #wrapper .left {
+		display: flex;
+		flex-flow: row wrap;
+		width: 19%;
+		background-color: rgba(250,184,186, 0.8);
+		padding: 15px;
+		border: 2px solid black;
+	}
+
+		body #wrapper .left ul {
+			list-style-type: none;
+			width: 100%;
+		}
+
+		body #wrapper .left ul li {
+			margin-bottom: 8px;
+		}
+
+		body #wrapper .left ul li a {
+			text-decoration: none;
+			color: black;
+		}
+
+	body #wrapper .right {
+		display: flex;
+		flex-flow: row wrap;
+		order: 4;
+		width: 19%;
+		background-color: rgba(250,184,186, 0.8);
+		border: 2px solid black;
+		padding: 15px;
+		padding-top: 0px;
+	}
+
+		body #wrapper .right ul {
+			list-style-type: none;
+			text-align: left;
+			line-height: 20px;
+		}
+
+	body #wrapper section {
+		display: flex;
+		flex-flow: row wrap;
+		width: 59%;
+		height: 50%;
+		background-color: rgba(250,184,186, 0.8);
+		border: 2px solid black;
+		padding: 20px;
+		padding-top: 5px;
+	}
+		body #wrapper section article header h1 {
+			font-size: 1.8em;
+			margin-bottom: 10px;
+		}
+
+		body #wrapper section div {
+			width: 100%;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: space-between;
+
+		}
+			body #wrapper section div img {
+				width: 23%;
+				margin-bottom: 10px;
+			}
+
+	body #wrapper footer {
+		display: flex;
+		flex-flow: row wrap;
+		order: 5;
+		background-color: rgba(250,184,186, 0.8);
+		border: 2px solid black;
+		width: 100%;
+		padding: 20px;
+		margin-top: 20px;
+	}
+
+/*RESPONSIVE*/
+
+@media all and (max-width: 960px) {
+	body #wrapper {
+		width: 100%;
+		margin: 0;
+	}
+
+	body #wrapper section {
+		height: 100% !important;
+		flex-flow: column wrap;
+		align-content: space-around;
+	}
+
+	body #wrapper section div img {
+		width: 33%;
+		margin-bottom: 10px;
+	}
+}
+
+@media all and (max-width: 780px) {
+	body #wrapper header nav ul {
+		justify-content: space-between;
+	}
+
+	body #wrapper section {
+		width: 100%;
+		order: 2;
+	}
+
+	body #wrapper aside {
+		width: 100%;
+		order: 3;
+	}
+
+	body #wrapper .left, body #wrapper .right {
+		width: 100%;
+		margin-bottom: 20px;
+	}
+	body #wrapper .left {
+		margin-top: 20px;
+	}
+}
+
+@media all and (max-width: 640px) {
+	body #wrapper > header {
+		 flex-direction: column;
+	}
+
+	body #wrapper > header h1 a {
+		flex-direction: column;
+		justify-content: space-around;
+		align-items: center;
+	}
+
+	body #wrapper > header nav ul li, body #wrapper > header nav ul,  body #wrapper > header nav ul li a{
+		width: 100%;
+
+	}
+
+	body #wrapper > header nav ul a{ 
+		flex-flow: col wrap;
+		justify-content: center;
+		align-content: space-between;
+		display: block;
+		width: 100%;
+		text-align: center;
+	}
+
+	body #wrapper > header nav ul li {
+	}
+
+	body #wrapper section div img {
+		width: 48%;
+		margin-bottom: 10px;
+	}
+}
