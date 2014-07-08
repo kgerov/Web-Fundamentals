@@ -1,0 +1,257 @@
+$purple: rgba(33, 0, 33, 1);
+$blue: rgba(0, 0, 255, 1);
+$green: rgba(2, 51, 2, 1);
+$yellow: rgba(255, 255, 0, 1);
+$orange: rgba(233, 137, 0, 1);
+$red: rgba(255, 0, 0, 1);
+
+$border-main: 3px double #969696;
+
+@mixin gradient-generator($color, $direction, $gradient: linear) {
+	background: -webkit-#{$gradient}-gradient($direction, $color 0%,$color 0%,rgba(229,229,229,1) 100%,rgba(229,229,229,1) 100%);
+}
+
+// @include gradient-generator();
+
+body, ul, header, footer, section, article, ul, li, a, span, nav, h1, h2, h3, aside, div {
+    box-sizing: border-box;
+    margin: 0;
+    moz-box-sizing: border-box;
+    padding: 0;
+    webkit-box-sizing: border-box;
+}
+
+html {
+	@include gradient-generator(#808080, top);
+	background-repeat: no-repeat;
+	background-size: cover; 
+	height: 100%;
+}
+
+body {
+	font-family: Tahoma;
+}
+
+body #wrapper {
+	display: flex;
+	width: 960px;
+	margin: 0 auto;
+	flex-flow: row wrap;
+	justify-content: space-between;
+	font-size: 16px;
+	border: $border-main;
+	padding: 15px;
+	background: white;
+
+}
+
+#wrapper > header {
+	display: flex;
+	width: 96%;
+	border: $border-main;
+	padding: 15px;
+	padding-bottom: 25px;
+	justify-content: center;
+	flex-flow: row wrap;
+	margin-bottom: 25px;
+		h1 {
+			width: 100%;
+			text-align: center;
+			margin-bottom: 25px;
+			color: #808080;
+		}
+
+		nav ul {
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			width: 100%;
+			list-style-type: none;
+			margin: 0 auto;
+			li a{
+				color: #6F7384;
+				text-decoration: none;
+				margin-right: 40px;
+				padding: 7px 12px;
+				border: $border-main;
+
+				&:hover {
+					@include gradient-generator(#808080, top);
+					color: white;
+				}
+			}
+		}
+
+	nav > ul > li:nth-child(3) > a {
+		margin-right: 0;
+	}
+}
+
+#wrapper > .linear, #wrapper > .radial {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 96%;
+	padding: 15px;
+	padding-bottom: 25px;
+	border: $border-main;
+	margin-bottom: 25px;
+		& > header h1 {
+			width: 100%;
+			text-align: center;
+			font-size: 1.3em;
+			color: #808080;
+			text-decoration: underline;
+			margin-bottom: 15px;
+			font-weight: normal;
+		}
+
+		article {
+			width: 100%;
+			border: 1px solid #969696;
+			padding: 10px;
+			padding-bottom: 20px;
+			margin-bottom: 15px;
+
+			header h2 {
+				width: 100%;
+				text-align: center;
+				font-size: 1em;
+				color: #808080;
+				font-weight: normal;
+				margin-bottom: 25px; 
+			}
+
+			.innerContainer {
+				width: 98%;
+				display: flex;
+				flex-flow: row wrap;
+				justify-content: center;
+
+				div {
+					width: 130px;
+					height: 130px;
+					border-radius: 15px;
+				}
+			}
+		}
+
+	article:nth-child(3) .purple {
+		@include gradient-generator($purple, left);
+	}
+	article:nth-child(3) .blue {
+		@include gradient-generator($blue, left);
+	}
+	article:nth-child(3) .green {
+		@include gradient-generator($green, left);
+	}
+	article:nth-child(3) .yellow {
+		@include gradient-generator($yellow, left);
+	}
+	article:nth-child(3) .orange {
+		@include gradient-generator($orange, left);
+	}
+	article:nth-child(3) .red {
+		@include gradient-generator($red, left);
+	}
+
+	article:nth-child(4) .purple {
+		@include gradient-generator($purple, -45deg);
+	}
+	article:nth-child(4) .blue {
+		@include gradient-generator($blue, -45deg);
+	}
+	article:nth-child(4) .green {
+		@include gradient-generator($green, -45deg);
+	}
+	article:nth-child(4) .yellow {
+		@include gradient-generator($yellow, -45deg);
+	}
+	article:nth-child(4) .orange {
+		@include gradient-generator($orange, -45deg);
+	}
+	article:nth-child(4) .red {
+		@include gradient-generator($red, -45deg);
+	}
+}
+
+#wrapper > section.radial > article > div {
+	padding: 10px;
+}
+
+#wrapper > section.linear > article:nth-child(2) > div > div.purple {
+	@include gradient-generator($purple, top);
+}
+#wrapper > section.linear > article:nth-child(2) > div > div.blue {
+	@include gradient-generator($blue, top);
+}
+#wrapper > section.linear > article:nth-child(2) > div > div.green {
+	@include gradient-generator($green, top);
+}
+#wrapper > section.linear > article:nth-child(2) > div > div.yellow {
+	@include gradient-generator($yellow, top);
+}
+#wrapper > section.linear > article:nth-child(2) > div > div.orange {
+	@include gradient-generator($orange, top);
+}
+#wrapper > section.linear > article:nth-child(2) > div > div.red {
+	@include gradient-generator($red, top);
+}
+
+#wrapper > section.radial > article > div > div.purple {
+	@include gradient-generator($purple, center, radial);
+}
+#wrapper > section.radial > article > div > div.blue {
+	@include gradient-generator($blue, center, radial);
+}
+#wrapper > section.radial > article > div > div.green {
+	@include gradient-generator($green, center, radial);
+}
+#wrapper > section.radial > article > div > div.yellow {
+	@include gradient-generator($yellow, center, radial);
+}
+#wrapper > section.radial > article > div > div.orange {
+	@include gradient-generator($orange, center, radial);
+}
+#wrapper > section.radial > article > div > div.red {
+	@include gradient-generator($red, center, radial);
+}
+
+#wrapper footer {
+	display: flex;
+	flex-flow: row wrap;
+	justify-content: center;
+	width: 96%;
+	padding: 15px;
+	padding-bottom: 25px;
+	border: $border-main;
+	margin-bottom: 15px;
+	color: #808080;
+		h3 {
+			width: 100%;
+			text-align: center;
+			font-size: 1.3em;
+			color: #808080;
+			text-decoration: underline;
+			margin-bottom: 15px;
+			font-weight: normal;
+		}
+
+		ul {
+			list-style-type: none;
+			width: 100%;
+			display: flex;
+			flex-flow: row wrap;
+			justify-content: center;
+			li {
+				width: 100%;
+				text-align: center;
+				margin-top: 5px;
+
+				a {
+					text-decoration: none;
+					color: #808080;
+				}
+			}
+		}
+}
