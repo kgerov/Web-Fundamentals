@@ -1,0 +1,11 @@
+След много опити, различни версии, директории, операционни системи, това не поиска да тръгне...
+
+C:\Users\Dimitar>jekyll create project
+C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/dependency.rb:296:in `to_specs': Could not find 'pygments.rb' (~> 0.6.0) - did find: [pygments.rb-0.5.0] (Gem::LoadError)
+
+        from C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/specification.rb:1209:in `block in activate_dependencies'
+        from C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/specification.rb:1198:in `each'
+        from C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/specification.rb:1198:in `activate_dependencies'
+        from C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/specification.rb:1180:in `activate'
+        from C:/Ruby200-x64/lib/ruby/2.0.0/rubygems/core_ext/kernel_gem.rb:48:in `gem'
+        from C:/Ruby200-x64/bin/jekyll:22:in `<main>'
